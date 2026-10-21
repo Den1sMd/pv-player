@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 
 
-export default function players(props:any) {
+interface forAllplayer {
+    players: string
+}
+
+export default function Allplayers(props: forAllplayer) {
 
     const [pv, setPv] = useState(20);
     const hpoff = pv < 0

@@ -1,0 +1,1 @@
+petite app en js et react on peux ajouter de la vie et en enlevé le compteur reste a 100 max grace a un useEffect
